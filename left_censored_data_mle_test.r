@@ -1,6 +1,8 @@
 # To Teil I Aufgabe 2 We test the likelihood by providing some MLE Estimation
-# procedure
- 
+# procedure.
+# TODO: simulate with bayesian and posterior predictive distribution given gamma
+# prior
+
 rm(list = ls())
 
 simulate  = function(k, m, n, h, theta, N.simulation) {
